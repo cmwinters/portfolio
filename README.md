@@ -1,11 +1,11 @@
-# Caleb Winters &ndash; Product Design and Implementation
+# Caleb Winters
 
 > [!NOTE]  
 > This is the repo for my updated CV, which I am building in the open. Star this repository to follow along 👀
 
-Hello, I'm Caleb. I'm a Product Designer based in Santa Cruz, CA. Design is fun&mdash;I've always felt that way, ever since I started coloring outside the lines and creating my own drawings as a kid. 
+Hello, I'm Caleb. I'm a an all-around Product Designer specializing in user experience, prototyping, and code. 
 
-What's great about Product Design (or UX, UI, Web Design, and whatever else we call ourselves 😂) is the magic of taking those beautiful, static designs and breathing them to life through code. It never gets old. 
+I've been having fun with design for a long time&mdash;ever since I started coloring outside the lines and creating my own drawings as a kid. What's great about Product Design (or UX, UI, Web Design, and whatever else we call ourselves 😂) is the magic of taking those beautiful, static designs and breathing them to life through code.
 
 ## Experience
 
