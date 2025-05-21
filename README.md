@@ -53,3 +53,9 @@ Worked on self-service tools for developers to manage their Marketplace listings
 | Screenbeacon | Founding Designer | 2014-2015 |
 | ZURB | Senior Designer | 2012-2014 |
 | Digital Corps | Software Designer | 2010-2012 |
+
+## Contact
+
+- winters dot caleb at gmail dotcom
+- [LinkedIn](www.linkedin.com/in/calebwinters)
+- [GitHub](https://github.com/cmwinters)
