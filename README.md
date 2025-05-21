@@ -56,6 +56,6 @@ Worked on self-service tools for developers to manage their Marketplace listings
 
 ## Contact
 
-- winters dot caleb at gmail dotcom
+- **winters dot caleb** at gmail dotcom
 - [LinkedIn](www.linkedin.com/in/calebwinters)
 - [GitHub](https://github.com/cmwinters)
