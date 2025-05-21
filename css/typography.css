@@ -290,6 +290,11 @@ hr {
   color: #578AC2; /* fallback for $echo */
 }
 
+.text-function {
+  font-family: 'function_pro', sans-serif;
+  font-weight: 400;
+}
+
 /* Function Pro */
 
 @font-face {
