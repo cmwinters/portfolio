@@ -133,7 +133,7 @@ html, body {
   font-size: 16px;
   font-weight: 500;
   color: #555;
-  font-family: 'function_pro';
+  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 @media (min-width: 768px) {
   .lead { font-size: 20px; }
@@ -182,7 +182,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'function_pro';
+  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 500;
 }
 
@@ -268,7 +268,7 @@ hr {
 .pagination {
   display: block;
   margin: 0 0 1rem 0;
-  font-family: 'function_pro', sans-serif;
+  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   text-align: center;
 }
 .pagination .page-number {
@@ -278,7 +278,7 @@ hr {
 
 .caption {
   display: block;
-  font-family: 'function_pro', sans-serif;
+  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 300;
   color: #7a99c2; /* fallback for scale-color($echo, $lightness:-20%) */
   margin-bottom: -.7rem;
@@ -291,7 +291,7 @@ hr {
 }
 
 .text-function {
-  font-family: 'function_pro', sans-serif;
+  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 300;
 }
 
