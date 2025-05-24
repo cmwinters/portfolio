@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.mb-big {
+  margin-bottom: 4rem;
+}
+
 html, body {
   -webkit-overflow-scrolling: touch;
 }
@@ -131,9 +135,9 @@ html, body {
 .lead {
   margin-bottom: 30px;
   font-size: 16px;
-  font-weight: 500;
-  color: #555;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-weight: 400;
+  /* color: #555; */
+  font-family: "Mona Sans", -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 @media (min-width: 768px) {
   .lead { font-size: 20px; }
@@ -171,7 +175,7 @@ h6 + p img {
 
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  letter-spacing: 0.01rem;
+  /* letter-spacing: 0.01rem; */
   font-size: 16px;
   line-height: 1.5;
   /* color: #3A4145; */
@@ -182,8 +186,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-weight: 500;
+  font-family: "Mona Sans", -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-weight: 800;
+  letter-spacing: 0.01rem;
 }
 
 blockquote {
@@ -268,7 +273,7 @@ hr {
 .pagination {
   display: block;
   margin: 0 0 1rem 0;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   text-align: center;
 }
 .pagination .page-number {
@@ -278,7 +283,7 @@ hr {
 
 .caption {
   display: block;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 300;
   color: #7a99c2; /* fallback for scale-color($echo, $lightness:-20%) */
   margin-bottom: -.7rem;
@@ -290,69 +295,8 @@ hr {
   color: #578AC2; /* fallback for $echo */
 }
 
-.text-function {
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-weight: 300;
-}
-
-/* Function Pro */
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Light-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.svg#function_prolight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Book-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.svg#function_probook') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Medium-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.svg#function_promedium') format('svg');
+.text-mono {
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Demi-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Demi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.svg#function_prodemi') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Bold-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.svg#function_pro_bookbold') format('svg');
-    font-weight: 600;
     font-style: normal;
 }
