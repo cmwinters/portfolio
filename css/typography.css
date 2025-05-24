@@ -273,7 +273,7 @@ hr {
 .pagination {
   display: block;
   margin: 0 0 1rem 0;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   text-align: center;
 }
 .pagination .page-number {
@@ -283,7 +283,7 @@ hr {
 
 .caption {
   display: block;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 300;
   color: #7a99c2; /* fallback for scale-color($echo, $lightness:-20%) */
   margin-bottom: -.7rem;
@@ -295,157 +295,8 @@ hr {
   color: #578AC2; /* fallback for $echo */
 }
 
-/* .text-function {
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-weight: 300;
-} */
-
-/* Function Pro */
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Light-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Light-webfont.svg#function_prolight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Book-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Book-webfont.svg#function_probook') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Medium-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Medium-webfont.svg#function_promedium') format('svg');
+.text-mono {
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Demi-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Demi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Demi-webfont.svg#function_prodemi') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'function_pro';
-    src: url('../fonts/function-pro/FunctionPro-Bold-webfont.eot');
-    src: url('../fonts/function-pro/FunctionPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.woff2') format('woff2'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.woff') format('woff'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.ttf') format('truetype'),
-         url('../fonts/function-pro/FunctionPro-Bold-webfont.svg#function_pro_bookbold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-}
-
-/* IBM Plex Mono */
-
-.ibm-plex-mono-thin {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.ibm-plex-mono-extralight {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.ibm-plex-mono-light {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.ibm-plex-mono-regular {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ibm-plex-mono-medium {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ibm-plex-mono-semibold {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.ibm-plex-mono-bold {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ibm-plex-mono-thin-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.ibm-plex-mono-extralight-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.ibm-plex-mono-light-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ibm-plex-mono-regular-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ibm-plex-mono-medium-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ibm-plex-mono-semibold-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.ibm-plex-mono-bold-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* IBM Plex Sans */
