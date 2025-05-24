@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.mb-big {
+  margin-bottom: 4rem;
+}
+
 html, body {
   -webkit-overflow-scrolling: touch;
 }
@@ -131,9 +135,9 @@ html, body {
 .lead {
   margin-bottom: 30px;
   font-size: 16px;
-  font-weight: 500;
-  color: #555;
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-weight: 400;
+  /* color: #555; */
+  font-family: "Mona Sans", -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 @media (min-width: 768px) {
   .lead { font-size: 20px; }
@@ -171,7 +175,7 @@ h6 + p img {
 
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  letter-spacing: 0.01rem;
+  /* letter-spacing: 0.01rem; */
   font-size: 16px;
   line-height: 1.5;
   /* color: #3A4145; */
@@ -182,8 +186,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-weight: 500;
+  font-family: "Mona Sans", -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-weight: 800;
+  letter-spacing: 0.01rem;
 }
 
 blockquote {
@@ -290,10 +295,10 @@ hr {
   color: #578AC2; /* fallback for $echo */
 }
 
-.text-function {
+/* .text-function {
   font-family: 'function_pro', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   font-weight: 300;
-}
+} */
 
 /* Function Pro */
 
@@ -356,3 +361,91 @@ hr {
     font-weight: 600;
     font-style: normal;
 }
+
+/* IBM Plex Mono */
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* IBM Plex Sans */
